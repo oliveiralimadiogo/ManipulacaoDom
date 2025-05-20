@@ -1,0 +1,43 @@
+#filtros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+button{
+    background-color: darkgrey;
+    color: white;
+    border: 0px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+#container-produtos{
+    margin: auto;
+    padding: 0% 25% 0% 25%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.produto {
+    position: relative;
+    border-radius: 5%;
+    width: 175px;
+    padding: 2%;
+    margin: 2% 2% 2% 0%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    background-color: var(--textColorLight);
+    text-align: center;
+    overflow: hidden;
+}
+
+.texto-produto {
+    width: 80%;
+    margin: 10px auto 0;
+    text-align: center;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="filtros">
+        <button onclick="listarProdutos()">Listar Produtos</button>
+        <form id="forms">
+            <label for="categorias">Categorias:</label>
+            <select name="categorias" id="filtroCategoria">
+            </select>
+            <label for="checkbox">Somente Disponíveis:</label>
+            <input type="checkbox" id="filtroDisponivel" name="checkbox">
+            <button type="submit">Filtrar</button>
+        </form>
+    </div>
+    <div id="container-produtos">
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
