@@ -84,7 +84,7 @@ function criarProdutos(listaProdutos){
 }
 
 /**
- * Filter products by category and availability/
+ * Filter products by category and availability.
  * 
  * Get the values on the filter's form to know what products should be visible,
  * filtering by the category and availability, after creating a new list of
