@@ -108,6 +108,7 @@ function filtrarProdutos() {
 }
 
 criarFiltroCategorias();
+listarProdutos();
 
 document.getElementById("forms").addEventListener("submit", (e) => { 
     e.preventDefault();
